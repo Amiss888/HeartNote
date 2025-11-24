@@ -1,0 +1,49 @@
+@media screen and (max-width: 400px) {
+
+    body {
+        background-image: url(../../Eh/Q.html/picture/BACK.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #gallery img{
+        display: inline;
+        width: 150px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        padding: 0;
+        border: 5px solid rgb(240, 162, 223);
+    }
+    #gallery video {
+        display: inline;
+        width: 120px;
+        margin: 10px 13px;
+        border-radius: 10px;
+        padding: 0;
+        border: 5px solid rgb(240, 162, 223);
+    }
+
+
+    main {
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 10px 20px;
+        margin: 55px 50px 10px;
+        text-align: center;
+        border: 5px solid pink;
+        border-radius: 30px;
+    }
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        display: block;
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 7px;
+    }
+
+
+
+}

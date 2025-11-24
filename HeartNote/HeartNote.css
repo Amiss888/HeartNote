@@ -1,0 +1,70 @@
+@media screen and (max-width: 400px) {
+
+    body {
+        background-image: url(../Eh/Q.html/picture/BACK.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    img{
+        margin: 50px 0 10px;
+        border: 5px solid pink;
+        width: 120px;
+        border-radius: 30px;
+    }
+
+    header {
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 10px 20px;
+        margin: 10px 50px 30px;
+        text-align: center;
+        border: 5px solid pink;
+        border-radius: 30px;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 10px 20px;
+        margin: 30px 50px;
+        text-align: center;
+        border: 5px solid pink;
+        border-radius: 30px;
+    }
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        display: block;
+        font-size: 22px;
+        text-decoration: none;
+        color: rgb(219, 3, 39);
+        padding: 7px;
+    }
+
+
+    h1 {
+        font-size: 36px;
+        margin: 15px 0 15px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+
+    footer {
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 10px 20px;
+        margin: 30px 50px;
+        text-align: center;
+        border: 5px solid pink;
+        border-radius: 30px;
+    }
+
+}

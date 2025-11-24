@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px) {
+body {
+    background-image: url(picture/BACK.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Out {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    height: 844px;
+}
+
+img{
+    width: 180px;
+}
+
+main {
+    margin: 10px;
+    background-color: white;
+    padding: 20px 20px 30px;
+    border-radius: 50px;
+    border: 10px solid;
+    border-color: hsl(0, 100%, 50%, 0.4);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a,a:visited,a:hover,a:active {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(255, 86, 114);
+}
+
+
+p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+div {
+    text-align: center;
+}
+
+}
