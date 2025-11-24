@@ -21,7 +21,7 @@ Login.addEventListener('submit', function(event){
     // เทียบรหัส
     if (Username === CorrectUsername && Password === CorrectPassword) {
 
-        window.location.href = '../Eh/Eh.html';
+        window.location.href = 'Eh/Eh.html';
 
     } else {
 
